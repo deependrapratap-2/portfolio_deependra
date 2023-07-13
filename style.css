@@ -147,7 +147,7 @@ background-size: cover; */
   display: none;
 }
 .slide-right {
-  animation: 1s slide-right;
+  animation: 3s slide-right;
 }
 @keyframes slide-right {
   from {
@@ -158,7 +158,7 @@ background-size: cover; */
   }
 }
 .slide-left {
-  animation: 3s slide-left;
+  animation: 0.8s slide-left;
 }
 @keyframes slide-left {
   from {
@@ -279,7 +279,7 @@ background-size: cover; */
   overflow: hidden;
 }
 .about .box-container .box .image img {
-  width: 100%;
+  width: 70%;
   height: 100%;
   object-fit: cover;
 }
@@ -309,8 +309,11 @@ background-size: cover; */
   font-weight: 200;
   padding-bottom: 5rem;
 }
-.contact .col-container .col input,
-.contact .col-container .col textarea {
+.contact .col-container .col2 {
+  margin-left: 25%;
+}
+.contact .col-container .form .col input,
+.contact .col-container .form .col textarea {
   background-color: var(--light-bg);
   width: 100%;
   padding: 1rem 2rem;
@@ -320,6 +323,10 @@ background-size: cover; */
   margin: 0.5rem 0;
   resize: vertical;
 }
+.contact .col-container .form .col textarea {
+  height: 10rem;
+}
+
 .contact .col-container .col p {
   font-size: 1.7rem;
   color: var(--yellow);
@@ -386,7 +393,7 @@ background-size: cover; */
     align-items: center;
     transform: translateX(100%);
   }
-  .header .navbar .show {
+  .header .navbar.show {
     transform: translateX(0%);
   }
   .header .navbar a {

@@ -54,8 +54,8 @@
         </div>
         <div class="box">
           <div class="image">
-            <img src="./images/comingSoon.jpg" alt="" />
-            <div class="content"><h2>project #2</h2></div>
+            <img src="./images/teerex_store.png" alt="" />
+            <div class="content"><h2>shopping Cart</h2></div>
           </div>
         </div>
         <div class="box">
@@ -154,7 +154,7 @@
           <h2>experience</h2>
           <div class="box">
             <span
-              ><i class="material-symbols-outlined"> calendar_today </i> jan
+              ><i class="material-symbols-outlined"> calendar_today </i> jul
               2023- present
             </span>
             <h3>Front-End developer</h3>
@@ -204,23 +204,20 @@
       <div class="box-container">
         <div class="box">
           <div class="image">
-            <img src="./images/123.jpg" alt="me" />
+            <img src="./images/download.jpeg" alt="me" />
           </div>
         </div>
         <div class="box">
           <h1 class="heading">about <span>me</span></h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consectetur, consequatur est reiciendis error voluptatum, nihil
-            veniam nisi eos aliquam magni maxime totam. Vitae adipisci minus
-            magni molestiae omnis voluptate assumenda.
+            As a front-end developer, I specialize in crafting beautiful and
+            functional user interfaces using HTML, CSS, JavaScript, React.js,
+            and Bootstrap. Explore my portfolio to see examples of my work and
+            how I can help bring your ideas to life!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            aliquam, illo placeat adipisci aspernatur culpa?
-          </p>
+
           <a href="#contact" class="btn">hire me</a>
-          <a href="./images/my-cv.pdf" class="btn">download cv</a>
+          <a href="./images/resume.pdf" class="btn">download cv</a>
         </div>
       </div>
     </section>
@@ -230,33 +227,54 @@
     <section class="contact" id="contact">
       <h1 class="heading">get <span>in touch</span></h1>
       <div class="col-container">
-        <div class="col">
-          <h2>get in touch</h2>
-          <input
-            type="text"
-            placeholder="your name
+        <form
+          class="form"
+          action="https://formspree.io/f/mrgwgjbw"
+          method="POST"
+        >
+          <div class="col">
+            <h2>you may contact</h2>
+            <input
+              type="text"
+              name="name"
+              placeholder="your name
           "
-          />
-          <input
-            type="email"
-            placeholder="your email
+              required
+              autocomplete="off"
+            />
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="your email
           "
-          />
-          <input
-            type="text"
-            placeholder="your phone
+              autocomplete="off"
+              required
+            />
+            <input
+              type="text"
+              placeholder="your phone
           "
-          />
-          <textarea
-            name=""
-            placeholder="write a message"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <a href="#" class="btn">send message</a>
-        </div>
-        <div class="col">
+              name="phone"
+              autocomplete="off"
+              required
+            />
+            <textarea
+              class="tsarea"
+              name="message"
+              placeholder="write a message"
+              id=""
+              cols="10"
+              rows="10"
+              autocomplete="off"
+              required
+            ></textarea>
+
+            <button class="btn" type="submit">Send</button>
+          </div>
+        </form>
+
+        <div class="col col2">
           <h2>my contact detail</h2>
           <p>email</p>
           <span>deependrapratap732@gmail.com</span>
@@ -283,10 +301,18 @@
     <!-- footer Start -->
     <section class="footer" id="footer">
       <div class="socials">
-        <ion-icon name="logo-twitter"></ion-icon>
-        <ion-icon name="logo-github"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
-        <ion-icon name="logo-google"></ion-icon>
+        <a href="https://twitter.com/explore"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <a href="https://github.com/deependrapratap-2"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.linkedin.com/in/deependrapratap/"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://github.com/deependrapratap-2"
+          ><ion-icon name="logo-google"></ion-icon
+        ></a>
       </div>
       <p>designed and developed by Deependra Pratap Singh</p>
     </section>
